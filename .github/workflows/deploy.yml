@@ -10,7 +10,7 @@ jobs:
   test:
     environment: testing
     env:
-      MONGODB_CLUSTER_ADDRESS: cluster0.3hiktpw.mongodb.net
+      MONGODB_CLUSTER_ADDRESS: cluster0.1nu2ef3.mongodb.net
       MONGODB_USERNAME: ${{ secrets.MONGODB_USERNAME }}
       MONGODB_PASSWORD: ${{ secrets.MONGODB_PASSWORD }}
       PORT: 8080
